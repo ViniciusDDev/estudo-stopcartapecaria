@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<title>Contato - StopCar Tapeçaria</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" href="Fotos/Logo/StopCarMINI.png">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><a href="index.html"><img src="Fotos/Logo/StopCarSite.png"></a></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="residencial.html">Residencial</a></li>
+						<li><a href="automotivo.html">Automotivo</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="background">
+				<section class="principal">
+				<h2 class="titulo-principal">Contato</h2>
+				<p>Entre em contato conosco!</p>
+				</section>
+
+				<section class="conteudo">
+					<form>
+						<label for="nomesobrenome">Nome completo:</label>
+						<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Ex: Maria Aparecida da Silva">
+
+						<label for="email">Email:</label>
+						<input type="email" id="email" class="input-padrao" required placeholder="Ex: seuemail@dominio.com">
+
+						<label for="telefone">Telefone:</label>
+						<input type="tel" id="telefone" class="input-padrao" required placeholder="Ex: (XX) XXXXX-XXXX">
+
+						<label for="mensagem">Mensagem:</label>
+						<textarea cols="50" rows="10" id="mensagem" class="input-padrao" placeholder="Conte-nos qual serviço deseja contratar!(Residencial, ou automotivo)"></textarea>
+
+						<fieldset>
+							<legend>Como prefere o nosso contato?</legend>
+
+							<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+							
+
+							<label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">Telefone</label>
+							
+
+							<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+							
+						</fieldset>
+
+						<fieldset>
+							<legend>Qual horário prefere ser atendido?</legend>
+							<select>
+								<option>Manhã</option>
+								<option>Tarde</option>
+								<option>Noite</option>
+							</select>
+						</fieldset>
+
+						<input type="submit" value="Enviar formulário" class="enviar">
+						</form>	
+
+					<section class="horario">
+						<p>Horário de funcionamento</p>
+						<table>
+							<thead>
+								<tr>
+									<th>Dia</th>
+									<th>Horário</th>
+								</tr>
+							</thead>
+						
+							<tbody>
+								<tr>
+									<td>Segunda à Sexta</td>
+									<td>8h~18h</td>
+								</tr>
+								<tr>
+									<td>Sábado</td>
+									<td>8h~12h</td>
+								</tr>
+							</tbody>	
+						</table>
+					</section>
+				</section>
+			</div>	
+		</main>
+	</body>
+
+	<footer>
+			<img src="Fotos/Logo/StopCarSite.png">
+			<p class=copyrigth>&copy; Copyrigth StopCar Tapeçaria - 2022</p>
+	</footer>
