@@ -1,0 +1,196 @@
+/* Formatação de página  */
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	background: black;
+	padding: 10px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	margin-right: 200px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #db0000;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 3em;
+	margin: 0 0 1em;
+	text-shadow: 2px 2px 5px black;
+}
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* Conteúdo: Residencial/Automotivo  */
+
+.fotos {
+	background: linear-gradient(white, gray);
+	padding-bottom: 50px;
+}
+
+.fotos div {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.fotos-conteudo {
+	padding: 10px;
+	opacity: 60%;
+}
+
+.fotos-conteudo:hover {
+	transition: 1s all;
+	transform: scale(2);
+	opacity: 100%;
+}
+
+footer {
+	background: gray;
+	text-align: center;
+	padding: 50px;
+}
+
+.copyrigth {
+	color: white;
+	font-size: 20px;
+}
+
+/* CONTATO */
+
+.background {
+	background: linear-gradient(white,gray);
+}
+.conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 1.5em;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 25px;
+	margin: 0 0 10px;
+	padding: 5px;
+}
+
+form select, form option {
+	display: block;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	font-family: 'Oswald', sans-serif;
+	width: 30%;
+	padding: 10px 0;
+	background: darkred;
+	color: white;
+	font-size: 26px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	box-shadow: 0 0 15px #000000;
+}
+
+.enviar:hover {
+	transform: scale(1.15);
+}
+
+.enviar:active {
+	background-color: green;
+}
+
+.horario {
+	font-size: 25px;
+}
+
+.horario p {
+	margin: 20px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+	font-size: 25px;
+}
+
+/* O Layout ainda não está funcionando de forma responsiva e o código abaixo já não faz muita diferença. 
+No entanto, foi parte importante dos meus estudos */
+
+/*@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .produtos {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.produtos {
+		width: 90% 
+		calc(100% - 20px);
+	}
+	.botao-produtos {
+		width: 50%;
+		margin-left: calc(100% - 25px)
+	}
+}
+*/
