@@ -1,0 +1,162 @@
+/* Formatação de página  */
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	background: black;
+	padding: 10px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	margin-right: 200px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #db0000;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 3em;
+	margin: 0 0 1em;
+	text-shadow: 2px 2px 5px black;
+}
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 1.5em 1em;
+}
+
+/* Conteúdo  */
+
+.mapa {
+	background: linear-gradient(lightgray, gray);
+}
+
+.mapa p {
+	font-size: 1.5em;
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos {
+	padding: 50px 0;
+	background: linear-gradient(white, lightgray);
+}
+
+.produtos-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos-conteudo li {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 30px;
+}
+
+.produtos-conteudo li:hover {
+	transition: 1s all;
+	transform: scale(1.15);
+}
+
+.produtos-conteudo p {
+	font-size: 1.5em;
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.botao-produtos {
+	font-family: 'Oswald', sans-serif;
+	width: 30%;
+	padding: 10px 0;
+	background: darkred;
+	color: white;
+	font-size: 26px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	box-shadow: 0 0 15px #000000;
+}
+
+.botao-produtos:hover {
+	transform: scale(1.15);
+}
+
+.botao-produtos:active {
+	background-color: green;
+}
+
+footer {
+	background: gray;
+	text-align: center;
+	padding: 50px;
+}
+
+.copyrigth {
+	color: white;
+	font-size: 20px;
+}
+
+/* O Layout ainda não está funcionando de forma responsiva e o código abaixo já não faz muita diferença. 
+No entanto, foi parte importante dos meus estudos */
+
+/*@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .produtos {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.produtos {
+		width: 90% 
+		calc(100% - 20px);
+	}
+	.botao-produtos {
+		width: 50%;
+		margin-left: calc(100% - 25px)
+	}
+}
+*/
